@@ -12,8 +12,9 @@ const bands = [
   "A Skylit Drive",
   "Anywhere But Here",
   "An Old Dog",
+  "An Old Dog",
 ];
-
+ 
 const strip = function (bandName) {
   return bandName.replace(/^(a |the |an)/i, " ").trim();
 };
